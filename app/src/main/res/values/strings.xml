@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Pi Provisioner</string>
+    <string name="app_subtitle">First-Boot BLE Setup Tool</string>
+
+    <!-- Scanning & Devices -->
+    <string name="title_scanner">Discover Devices</string>
+    <string name="scan_button_start">Scan for Pi</string>
+    <string name="scan_button_stop">Stop Scanning</string>
+    <string name="scanner_searching">Scanning for advertising Raspberry Pi devices…</string>
+    <string name="scanner_empty_title">No Raspberry Pi Found</string>
+    <string name="scanner_empty_desc">Ensure your Raspberry Pi is powered on, running the BLE provisioning service, and within range.</string>
+    <string name="action_connect">Connect</string>
+    <string name="action_connecting">Connecting…</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="action_reconnect">Reconnect</string>
+    <string name="rssi_format">%1$d dBm</string>
+
+    <!-- Permissions -->
+    <string name="permission_required_title">Bluetooth Permissions Needed</string>
+    <string name="permission_required_desc">This app requires Bluetooth and Location permissions to discover and connect to nearby Raspberry Pi BLE peripherals.</string>
+    <string name="grant_permissions">Grant Permissions</string>
+
+    <!-- Network Status Card -->
+    <string name="network_status_title">Pi Active Network</string>
+    <string name="network_type_wifi">Wi-Fi (wlan0)</string>
+    <string name="network_type_ethernet">Ethernet (eth0)</string>
+    <string name="network_type_disconnected">Offline / Unconnected</string>
+    <string name="ip_label">IP Address:</string>
+    <string name="ssid_label">Connected SSID:</string>
+    <string name="mac_label">MAC Address:</string>
+    <string name="not_available">Not Connected</string>
+    <string name="active_badge">Active</string>
+
+    <!-- Wi-Fi Provisioning Form -->
+    <string name="provision_card_title">Provision Wi-Fi Credentials</string>
+    <string name="provision_card_desc">Send credentials securely to the Pi over encrypted BLE GATT.</string>
+    <string name="input_ssid_label">Network SSID</string>
+    <string name="input_ssid_placeholder">e.g. HomeNetwork_5G</string>
+    <string name="input_password_label">Wi-Fi Password</string>
+    <string name="input_password_placeholder">Enter WPA2/WPA3 key</string>
+    <string name="send_credentials_button">Send &amp; Connect</string>
+    <string name="sending_credentials">Configuring Pi…</string>
+    <string name="credentials_sent_success">Wi-Fi credentials transmitted to Pi!</string>
+    <string name="credentials_error_empty">SSID cannot be empty</string>
+
+    <!-- Wi-Fi Scanning on Pi -->
+    <string name="pi_wifi_scan_title">Available Wi-Fi Networks</string>
+    <string name="pi_wifi_scan_button">Scan Networks on Pi</string>
+    <string name="pi_wifi_scanning">Pi scanning Wi-Fi channels…</string>
+    <string name="pi_wifi_empty">No Wi-Fi networks discovered by Pi yet. Tap scan.</string>
+    <string name="security_open">Open</string>
+    <string name="security_wpa2">WPA2/WPA3-PSK</string>
+    <string name="security_enterprise">WPA-Enterprise</string>
+
+    <!-- Saved Networks Management -->
+    <string name="saved_networks_title">Saved Profiles on Pi</string>
+    <string name="saved_networks_empty">No saved network profiles on Pi.</string>
+    <string name="action_forget">Forget</string>
+    <string name="action_switch">Switch</string>
+    <string name="disconnect_current_network">Disconnect Current</string>
+
+    <!-- State & Errors -->
+    <string name="connection_lost">BLE connection to Pi was lost.</string>
+    <string name="reconnecting">Attempting auto-reconnection…</string>
+    <string name="ble_ready">BLE connected and GATT services discovered.</string>
+    <string name="ble_demo_mode">Simulated Pi Demo Mode</string>
+    <string name="ble_demo_mode_desc">Provides complete virtual Raspberry Pi hardware for testing &amp; evaluation without a physical Pi nearby.</string>
+    <string name="toggle_demo_mode">Demo Mode</string>
+    <string name="hardware_mode">Hardware BLE</string>
+</resources>
